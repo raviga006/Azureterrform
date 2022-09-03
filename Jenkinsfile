@@ -20,7 +20,7 @@ pipeline{
                     clientIdVariable: '4286d482-63eb-4183-bf00-3c9e3ea89688',
                     clientSecretVariable: 'fFU8Q~JaU2vvYDThHUPLPibmDOV3NAsDLE3kqaph',
                     tenantIdVariable: 'b9fec68c-c92d-461e-9a97-3d03a0f18b82'
-                ), string(credentialsId: 'access_key', variable: 'ARM_ACCESS_KEY')]) {
+                ), string(credentialsId: 'ravie', variable: 'fFU8Q~JaU2vvYDThHUPLPibmDOV3NAsDLE3kqaph')]) {
                         
                         sh """
                                 
