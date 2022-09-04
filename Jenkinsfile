@@ -15,7 +15,7 @@ pipeline{
             steps {
                     ansiColor('xterm') {
                     withCredentials([azureServicePrincipal(
-                    credentialsId: '4286d482-63eb-4183-bf00-3c9e3ea89688',
+                    credentialsId: '78e54d5f-0ec0-4c29-9e8d-1bd96647b8ff',
                     subscriptionIdVariable: 'ARM_SUBSCRIPTION_ID',
                     clientIdVariable: 'ARM_CLIENT_ID',
                     clientSecretVariable: 'ARM_CLIENT_SECRET',
@@ -37,7 +37,7 @@ pipeline{
             steps {
                     ansiColor('xterm') {
                     withCredentials([azureServicePrincipal(
-                    credentialsId: '4286d482-63eb-4183-bf00-3c9e3ea89688',
+                    credentialsId: '78e54d5f-0ec0-4c29-9e8d-1bd96647b8ff',
                     subscriptionIdVariable: 'ARM_SUBSCRIPTION_ID',
                     clientIdVariable: 'ARM_CLIENT_ID',
                     clientSecretVariable: 'ARM_CLIENT_SECRET',
@@ -58,7 +58,7 @@ pipeline{
 
                     ansiColor('xterm') {
                     withCredentials([azureServicePrincipal(
-                    credentialsId: '4286d482-63eb-4183-bf00-3c9e3ea89688',
+                    credentialsId: '78e54d5f-0ec0-4c29-9e8d-1bd96647b8ff',
                     subscriptionIdVariable: 'ARM_SUBSCRIPTION_ID',
                     clientIdVariable: 'ARM_CLIENT_ID',
                     clientSecretVariable: 'ARM_CLIENT_SECRET',
@@ -89,7 +89,7 @@ pipeline{
             steps {
                     ansiColor('xterm') {
                     withCredentials([azureServicePrincipal(
-                    credentialsId: '4286d482-63eb-4183-bf00-3c9e3ea89688',
+                    credentialsId: '78e54d5f-0ec0-4c29-9e8d-1bd96647b8ff',
                     subscriptionIdVariable: 'ARM_SUBSCRIPTION_ID',
                     clientIdVariable: 'ARM_CLIENT_ID',
                     clientSecretVariable: 'ARM_CLIENT_SECRET',
