@@ -35,13 +35,6 @@ variable "prefix" {
     default     =   "Terraform"
 }
 
-variable "tags" {
-    description =   "Resouce tags"
-    type        =   map(string)
-    default     =   {
-        "author"        =   "Vamsi"
-        "deployed_with" =   "Terraform"
-    }
 }
 
 # Resource Group
@@ -51,29 +44,6 @@ variable "location" {
     type        =   string
     default     =   "East US"
 }
-
-# Vnet and Subnet
-
-variable "vnet_address_range" {
-    description =   "IP Range of the virtual network"
-    type        =   string
-    default     =   "10.0.0.0/16"
-}
-
-variable "subnet_address_range" {
-    description =   "IP Range of the virtual network"
-    type        =   string
-    default     =   "10.0.1.0/24"
-}
-
-# Public IP and NIC Allocation Method
-
-variable "allocation_method" {
-    description =   "Allocation method for Public IP Address and NIC Private ip address"
-    type        =   list(string)
-    default     =   ["Static", "Dynamic"]
-}
-
 
 # VM 
 
