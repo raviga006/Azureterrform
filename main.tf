@@ -13,7 +13,7 @@ terraform {
     backend "azurerm" {
         resource_group_name = "polo"
         storage_account_name = "terrasave"
-        container_name = "tfsave"
+        container_name = "tfback"
         key = "terraform.tfstate"
     
       
