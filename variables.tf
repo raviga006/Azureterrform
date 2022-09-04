@@ -88,6 +88,10 @@ variable "os_disk" {
     }
 }
 
+resource "azurerm_resource_group" "demo-rg"{
+    name = "polo"
+   
+}
 
 variable "os_image" {
     description     =   "OS image details"
@@ -104,4 +108,6 @@ variable "os_image" {
         version     =   "latest"
     }
 }
+
+
 
